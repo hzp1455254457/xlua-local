@@ -1,0 +1,13 @@
+ManifestFileVersion: 0
+CRC: 675432051
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: prafab
+      Dependencies: {}
+    Info_1:
+      Name: sprite
+      Dependencies: {}
+    Info_2:
+      Name: config
+      Dependencies: {}

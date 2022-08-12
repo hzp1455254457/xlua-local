@@ -1,0 +1,11 @@
+print("进入UIAnimBase")
+Object:subClass("UIAnimBase")
+UIAnimBase. backTf=nil
+--实例化方法
+function UIAnimBase:Anim()
+    self.backTf.localScale=CS.UnityEngine.Vector3.Zero
+  self. backTf:DOScale(1.1, 1).onComplete=function()
+      self. backTf:DOScale(1, 0.5)
+
+   end
+end

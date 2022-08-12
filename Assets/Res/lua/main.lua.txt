@@ -1,0 +1,9 @@
+
+print('进入main')
+require("InitClass")
+require("Object")
+require("UIAnimBase")
+require("JsonUtility")
+require("PlayData")
+require("mainPanel")
+

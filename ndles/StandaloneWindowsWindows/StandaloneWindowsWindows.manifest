@@ -1,0 +1,7 @@
+ManifestFileVersion: 0
+CRC: 1799769945
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: lua
+      Dependencies: {}

@@ -1,0 +1,17 @@
+ManifestFileVersion: 0
+CRC: 1579062528
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 52ab7ff65a508aa9bf4e37f47c6989cc
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 5ad585dd02dfb5016c0dad519eab8f49
+HashAppended: 0
+ClassTypes:
+- Class: 49
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/XLua/Resources/Config/Produce.txt
+Dependencies: []

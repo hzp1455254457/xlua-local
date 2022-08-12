@@ -1,0 +1,14 @@
+print("进入playdata")
+produceDataTable={}
+
+SpriteAtlas=ABMgr:GetAsset("SpriteAtlas","sprite/SpriteAtlas",false)
+produceData=ABMgr:GetAsset("produce","config/produce",false)
+
+print(produceData)
+local  table= json.decode(produceData.text)
+
+print(produceDataTable)
+for key,value in pairs(table)  do
+    produceDataTable[value.item_id]=value
+
+end

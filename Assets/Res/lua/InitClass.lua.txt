@@ -1,0 +1,10 @@
+print("进入initclass")
+ABMgr=CS.ResourcesComponent.GetInstance()
+GameObject=CS.UnityEngine.GameObject
+Canvas= GameObject.Find("Canvas")
+UI=CS.UnityEngine.UI;
+Image=UI.Image
+Button=UI.Button
+Global=CS.Global
+Obj=CS.UnityEngine.Object
+DG=CS.DG.Tweening

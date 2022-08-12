@@ -1,0 +1,52 @@
+[
+        {
+            "days": 1,
+            "sign_before_getnum": 0,
+            "sign_show_num": 800
+        },
+        {
+            "days": 2,
+            "sign_before_getnum": 800,
+            "sign_show_num": 1500
+        },
+        {
+            "days": 3,
+            "sign_before_getnum": 1500,
+            "sign_show_num": 2000
+        },
+        {
+            "days": 4,
+            "sign_before_getnum": 2000,
+            "sign_show_num": 2500
+        },
+        {
+            "days": 5,
+            "sign_before_getnum": 2500,
+            "sign_show_num": 3000
+        },
+        {
+            "days": 6,
+            "sign_before_getnum": 3000,
+            "sign_show_num": 3500
+        },
+        {
+            "days": 7,
+            "sign_before_getnum": 3500,
+            "sign_show_num": 4000
+        },
+        {
+            "days": 8,
+            "sign_before_getnum": 4000,
+            "sign_show_num": 4500
+        },
+        {
+            "days": 9,
+            "sign_before_getnum": 4500,
+            "sign_show_num": 4800
+        },
+        {
+            "days": 10,
+            "sign_before_getnum": 4800,
+            "sign_show_num": 0
+        }
+    ]

@@ -1,0 +1,62 @@
+print("进入mainpanel")
+
+print(Canvas)
+require("Item")
+--local start=Global.FindChild(Canvas.transform,"Start").transform:GetComponent(typeof(Button))
+
+UIAnimBase:subClass("mainPanel")
+mainPanel.panel=nil
+mainPanel.grid=nil
+mainPanel.exit=nil
+mainPanel.ItemContain= {}
+
+--start.onClick:AddListener(function()
+    --mainPanel:Show()
+--end
+--)
+ function mainPanel:Show()
+    if(self.panel==nil)then
+        mainPanel:Init()
+
+    else
+        self.panel:SetActive(true)
+    end
+
+end
+ function mainPanel:Init()
+
+   self. panel=Obj.Instantiate( ABMgr:GetAsset("Panel","Prafabs/Panel",false))
+     self. panel.transform:SetParent(Canvas.transform,false)
+self.backTf=Global.FindChild(self. panel.transform,"back").transform
+    --local Item= ABMgr:LoadRes("Prafab","item")
+     self. grid=Global.FindChild(self. panel.transform,"grid").transform
+     self. exit=Global.FindChild(self. panel.transform,"exit").transform:GetComponent(typeof(Button))
+
+     self. exit.onClick:AddListener(function()
+         self.panel:SetActive(false)
+    end)
+     i=1
+    for key,value in pairs(produceDataTable)  do
+      local item=  Item:new()
+
+        table.insert(self. ItemContain,item)
+        i=i+1
+        item:Init(self.grid)
+        item:InitData(value)
+        --local Item= ABMgr:LoadRes("Prafab","item")
+        --Item.transform:SetParent(self.grid,false)
+        --local image=Item.transform:Find("img"):GetComponent(typeof(CS.UnityEngine.UI.Image))
+        --local count=Global.FindChild(Item.transform,"count"):GetComponent("Text")
+        --local name=Global.FindChild(Item.transform,"name"):GetComponent("Text")
+        --count.text=value.item_cost_num.."元"
+       -- name.text=value.item_name
+        --image.sprite=SpriteAtlas:GetSprite(value.item_pic)
+        --print(value.item_name)
+        --print(key)
+    end
+
+
+     self:Anim()
+
+end
+mainPanel:Show()

@@ -1,0 +1,25 @@
+Object:subClass("Item")
+Item.obj=nli
+Item.btn=nil
+Item.count=nil
+Item.name=nli
+Item.image=nil
+function Item:Init(parent)
+self.obj=Obj.Instantiate(ABMgr:GetAsset("item","Prafabs/item",false))
+    self.obj.transform:SetParent(parent,false)
+    self.image=self.obj.transform:Find("img"):GetComponent(typeof(CS.UnityEngine.UI.Image))
+    self.count=Global.FindChild(self.obj.transform,"count"):GetComponent("Text")
+    self.name=Global.FindChild(self.obj.transform,"name"):GetComponent("Text")
+    self.btn=Global.FindChild(self.obj.transform,"Button"):GetComponent("Button")
+
+end
+
+function Item:InitData(data)
+    self.image.sprite=SpriteAtlas:GetSprite(data.item_pic)
+    self.count.text=data.item_cost_num.."元"
+    self.name.text=data.item_name
+    self.btn.onClick:AddListener(function()
+        print("点击"..self.name.text)
+    end)
+
+end
