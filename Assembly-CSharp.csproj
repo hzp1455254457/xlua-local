@@ -141,9 +141,11 @@
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
     <None Include="Assets\XLua\Gen\link.xml" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
+    <None Include="Assets\Test\WenliShader.shader" />
     <None Include="Assets\Res\lua\SplitTools.lua.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
     <None Include="Assets\_www.unityassetcollection.com.txt" />
+    <None Include="Assets\Test\NewUnlitShader.shader" />
     <None Include="Assets\Res\lua\PlayData.lua.txt" />
     <None Include="Assets\XLua\Resources\xlua\util.lua.txt" />
     <None Include="Assets\Res\lua\InitClass.lua.txt" />
@@ -158,6 +160,7 @@
     <None Include="Assets\Res\lua\UIAnimBase.lua.txt" />
     <None Include="Assets\Resources\prefab\Plugins\WSA\x64\xlua.dll" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
+    <None Include="Assets\Test\TestShader1 1.shader" />
     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
     <None Include="Assets\XLua\Resources\perf\profiler.lua.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
@@ -172,9 +175,10 @@
     <None Include="Assets\Res\lua\main.lua.txt" />
     <None Include="Assets\XLua\Resources\perf\memory.lua.txt" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
-    <None Include="Assets\Test\TestShader.shader" />
+    <None Include="Assets\Test\HightShader.shader" />
     <None Include="Assets\Resources\prefab\Plugins\x86_64\xlua.dll" />
     <None Include="Assets\Resources\prefab\Plugins\WSA\ARM\xlua.dll" />
+    <None Include="Assets\Test\TestShader 1.shader" />
     <None Include="Assets\Res\lua\Item.lua.txt" />
     <None Include="Assets\XLua\Resources\LuaTestScript.lua.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
